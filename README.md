@@ -77,9 +77,13 @@ The below tree is based on the current site map
 
 ### Explanation of files
 Gemfile - Used for adding extra needed packages into ruby sinatra
+
 Gemfile.lock - Created when the application is ran from the Gemfile
+
 App.rb - The main file that starts uo the whole app
+
 .rspec - needed to run the spec helper before any tests are ran
+
 .gitignore - files that are ignored by github, test files etc arent needed to be shared
 
 
