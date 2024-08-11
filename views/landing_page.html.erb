@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head Contains all the metadata, author, viewport and the associated stylesheet -->
+  <head>
+    <meta charset="utf-8">
+    <title>Sinatra App</title>
+    <meta name="author" content="Harry Bond">
+    <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/general-styles.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>Sinatra Application</h1>
+    </header>
+
+    <main>
+      <!-- Returns the name of the database row and the associated id on the webpage -->
+      <p><% @harry.name %> has id <% @harry.id.to_s %></p>
+    </main>
+
+    <footer>
+
+    </footer>
+  </body>
+</html>
