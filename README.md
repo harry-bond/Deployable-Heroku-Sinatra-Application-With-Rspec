@@ -1,5 +1,5 @@
 # Deployable Heroku Sinatra Application With Rspec
-This is a simple repository aimed at being an initial base to any ruby sinatra application.
+This is a simple repository aimed at being an initial base to any ruby sinatra application. A simple example of pulling a users record out of a database has been included.
 
 #### Tests
 It has rspec tests that are run when a pull request is made therefore eliminating broken code being pushed to the repository. These are in the form of acceptance, integration and unit tests. The spec_helper file is ran first to initialise any environment variables.
@@ -34,7 +34,7 @@ The below tree is based on the current site map
     │   └── development_db.sqlite
     │
     ├── models/
-    │   └── Player.rb
+    │   └── User.rb
     │
     ├── public/
     │   └──  styles/
@@ -51,7 +51,7 @@ The below tree is based on the current site map
     │   ├── unit/
     │   │   └── ...(any unit tests)
     │   │
-    │   ├── coverage/
+    │   ├── coverage/ (this file is not included in git)
     │   │    ├── assets/
     │   │    │   └── ...(files for creating index.hmtl page)
     │   │    │
